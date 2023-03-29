@@ -5,10 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Product Sans" , sans-serif;
 }
 
-.app{
-    color: $primary-color;
-    @include flexAlign;
-    height: 100vh;
-}

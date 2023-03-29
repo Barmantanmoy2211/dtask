@@ -1,10 +1,13 @@
 import React from 'react'
 import "./app.scss"
+import {Home, Navbar, DashboardPreview} from "./Components"
 
 const app = () => {
   return (
     <div className="app">
-      App
+      <Navbar />
+      <Home />
+      <DashboardPreview />
     </div>
   )
 }
