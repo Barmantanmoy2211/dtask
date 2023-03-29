@@ -1,6 +1,6 @@
 import React from 'react'
 import "./app.scss"
-import {Home, Navbar, DashboardPreview, Analytics, Feature, Distribution} from "./Components"
+import {Home, Navbar, DashboardPreview, Analytics, Feature, Distribution, Footer} from "./Components"
 
 const app = () => {
   return (
@@ -11,6 +11,7 @@ const app = () => {
       <Analytics />
       <Feature />
       <Distribution />
+      <Footer />
     </div>
   )
 }

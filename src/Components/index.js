@@ -4,6 +4,7 @@ import DashboardPreview from "./DashboardPreview";
 import Analytics from "./Analytics";
 import Feature from "./Feature";
 import Distribution from "./Distribution";
+import Footer from "./Footer";
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     DashboardPreview,
     Analytics,
     Feature,
-    Distribution
+    Distribution,
+    Footer
 }
