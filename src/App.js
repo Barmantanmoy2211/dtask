@@ -1,8 +1,17 @@
-import React from 'react'
-import "./app.scss"
-import {Home, Navbar, DashboardPreview, Analytics, Feature, Distribution, Footer} from "./Components"
+import React from "react";
+import "./app.scss";
+import {
+  Analytics,
+  DashboardPreview,
+  Distribution,
+  Feature,
+  Footer,
+  Home,
+  Navbar,
+  STTop,
+} from "./Components";
 
-const app = () => {
+const App = () => {
   return (
     <div className="app">
       <Navbar />
@@ -12,8 +21,9 @@ const app = () => {
       <Feature />
       <Distribution />
       <Footer />
+      <STTop />
     </div>
-  )
-}
+  );
+};
 
-export default app
+export default App;

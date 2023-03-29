@@ -5,6 +5,7 @@ import Analytics from "./Analytics";
 import Feature from "./Feature";
 import Distribution from "./Distribution";
 import Footer from "./Footer";
+import STTop from "./STTop";
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Analytics,
     Feature,
     Distribution,
-    Footer
+    Footer,
+    STTop
 }
