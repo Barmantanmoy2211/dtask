@@ -5,7 +5,7 @@ import {dashboard} from "../Images"
 const DashboardPreview = () => {
   return (
     <div className='app__dashboard'>
-      <img src={dashboard} alt="" />
+      <img src={dashboard} alt="" draggable={false}/>
     </div>
   )
 }
